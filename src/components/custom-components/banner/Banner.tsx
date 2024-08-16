@@ -17,7 +17,7 @@ const images=["https://images.squarespace-cdn.com/content/v1/53baea7fe4b032d466a
   return (
     <Carousel
       plugins={[plugin.current]}
-      className="w-full max-w-4xl mx-auto"
+      className="w-full max-w-5xl "
       onMouseEnter={plugin.current.stop}
       onMouseLeave={plugin.current.reset}
     >
