@@ -1,6 +1,5 @@
 import * as React from "react";
 import Autoplay from "embla-carousel-autoplay";
-
 import { Card, CardContent } from "@/components/ui/card";
 import {
   Carousel,
@@ -14,7 +13,7 @@ const Banner = () => {
   const plugin = React.useRef(
     Autoplay({ delay: 2000, stopOnInteraction: true })
   );
-const images=["https://i0.wp.com/djugeralo.com/wp-content/uploads/2023/10/%E0%A6%AC%E0%A6%99%E0%A7%8D%E0%A6%97%E0%A6%AC%E0%A6%A8%E0%A7%8D%E0%A6%A7%E0%A7%81-%E0%A6%9F%E0%A6%BE%E0%A6%A8%E0%A7%87%E0%A6%B2.jpg?fit=768%2C470&ssl=1","https://www.newagebd.com/files/records/news/202301/192142_111.jpg","https://thedelegate.net/wp-content/uploads/2021/01/BSMRB-bridge.jpg","https://images.squarespace-cdn.com/content/v1/53baea7fe4b032d466a92a62/1559857208124-E7KQQEK9IOZ5CFESSCTF/Bangabandhu+Bridge.jpg"]
+const images=["https://images.squarespace-cdn.com/content/v1/53baea7fe4b032d466a92a62/1559857208124-E7KQQEK9IOZ5CFESSCTF/Bangabandhu+Bridge.jpg","https://www.newagebd.com/files/records/news/202301/192142_111.jpg","https://thedelegate.net/wp-content/uploads/2021/01/BSMRB-bridge.jpg","https://i0.wp.com/djugeralo.com/wp-content/uploads/2023/10/%E0%A6%AC%E0%A6%99%E0%A7%8D%E0%A6%97%E0%A6%AC%E0%A6%A8%E0%A7%8D%E0%A6%A7%E0%A7%81-%E0%A6%9F%E0%A6%BE%E0%A6%A8%E0%A7%87%E0%A6%B2.jpg?fit=768%2C470&ssl=1",]
   return (
     <Carousel
       plugins={[plugin.current]}
