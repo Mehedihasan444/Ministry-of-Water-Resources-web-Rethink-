@@ -15,7 +15,7 @@ import { useState } from "react";
 const Top_Header=() =>{
     const [language,setLanguage]=useState('বাংলা')
   return (
-    <div className="space-y-3 mt-10">
+    <div className="space-y-3 mt-10 ">
 
 <h1 className="text-xl font-semibold">Bangladesh National Portal</h1>
 <div className="flex  gap-2">
