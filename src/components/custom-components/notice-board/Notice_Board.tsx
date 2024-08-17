@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 const Notice_Board = () => {
   return (
     <div
-      className="relative p-5  pb-10 bg-[#f2faff] rounded-md shadow"
+      className="relative p-5  pb-10 bg-[#f2faff] rounded-md shadow -z-10"
       //   style={{
       //     backgroundImage: `url("https://i.pinimg.com/736x/28/f3/0f/28f30fa950f9ea5a7031a3e80c164873.jpg")`,
       //     backgroundPosition: "center",

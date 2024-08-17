@@ -1,12 +1,13 @@
 import "./App.css";
 import Banner from "./components/custom-components/banner/Banner";
+import Footer from "./components/custom-components/footer/Footer";
 import Navbar from "./components/custom-components/navbar/Navbar";
 import Top_Header from "./components/custom-components/navbar/top-header/Top_Header";
 import News from "./components/custom-components/news/News";
 import Notice_Board from "./components/custom-components/notice-board/Notice_Board";
 import Services from "./components/custom-components/services/Services";
 import Sidebar from "./components/custom-components/sidebar/Sidebar";
-import { Button } from "./components/ui/button";
+
 
 const App = () => {
   return (
@@ -55,6 +56,7 @@ const App = () => {
           </div>
         </div>
       </div>
+      <Footer/>
     </div>
   );
 };
