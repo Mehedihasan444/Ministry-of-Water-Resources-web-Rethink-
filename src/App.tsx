@@ -5,15 +5,18 @@ import Navbar from "./components/custom-components/navbar/Navbar";
 import Top_Header from "./components/custom-components/navbar/top-header/Top_Header";
 import News from "./components/custom-components/news/News";
 import Notice_Board from "./components/custom-components/notice-board/Notice_Board";
+import Right_Side_Menu from "./components/custom-components/right-side-menu/Right_Side_Menu";
 import Services from "./components/custom-components/services/Services";
 import Sidebar from "./components/custom-components/sidebar/Sidebar";
-
 
 const App = () => {
   return (
     <div className="relative">
       <div className="fixed h-screen  left-4 top-0 bottom-0 flex items-center w-80">
         <Navbar />
+      </div>
+      <div className="fixed h-screen  right-4 top-0 bottom-0 flex items-center w-40">
+     <Right_Side_Menu/>
       </div>
 
       <div className="max-w-5xl mx-auto">
@@ -47,7 +50,7 @@ const App = () => {
         <div className="flex justify-between my-10">
           <div className="w-2/3">
             <Notice_Board />
-            <div className="bg-[#f2faff]  my-10 shadow">
+            <div className="bg-[#f2faff]  mt-10 shadow">
               <Services />
             </div>
           </div>
@@ -56,7 +59,7 @@ const App = () => {
           </div>
         </div>
       </div>
-      <Footer/>
+      <Footer />
     </div>
   );
 };

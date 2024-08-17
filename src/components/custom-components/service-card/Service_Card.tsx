@@ -13,7 +13,7 @@ const Service_Card = ({ service }:{service:Service}) => {
                 <img
                   src={service?.image}
                   alt="image"
-                  className="h-20 w-20  border-2 rounded-full p-1 border-[#1697BA]"
+                  className="h-16 w-16  border-2 rounded-full p-1 border-[#1697BA]"
                 />
               </figure>
               <h3 className="overflow-hidden text-ellipsis whitespace-nowrap font-bold text-2xl text-center">{service.title}</h3>

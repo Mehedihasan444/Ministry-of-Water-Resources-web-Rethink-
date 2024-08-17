@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <div className="mt-10 py-5 space-y-3 border-t" 
+    <div className="mt-10 py-5 space-y-3 border-t-4 max-w-5xl mx-auto border-[#1697BA]" 
       style={{
             backgroundImage: `url("https://mowr.gov.bd/themes/responsive_npf/images/footer_top_bg.png")`,
             backgroundPosition: "bottom",
@@ -19,21 +19,21 @@ const Footer = () => {
       <div className="flex justify-center items-center">
         <NavigationMenu>
           <NavigationMenuList className="flex ">
-            <NavigationMenuItem className="border-r border-b hover:text-white">
+            <NavigationMenuItem className="border-r border-b hover:text-white border-[#1697BA]">
               <Link to="/docs">
                 <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                   'ACC' Hotline '106'
                 </NavigationMenuLink>
               </Link>
             </NavigationMenuItem>
-            <NavigationMenuItem className="border-r border-b  hover:text-white">
+            <NavigationMenuItem className="border-r border-b   border-[#1697BA] hover:text-white">
               <Link to="/docs">
                 <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                   Site map
                 </NavigationMenuLink>
               </Link>
             </NavigationMenuItem>
-            <NavigationMenuItem className="hover:text-white border-b ">
+            <NavigationMenuItem className="hover:text-white border-b border-[#1697BA]">
               <Link to="/docs">
                 <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                   Privacy Policy
