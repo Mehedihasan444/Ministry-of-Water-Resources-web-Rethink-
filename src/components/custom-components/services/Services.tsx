@@ -10,7 +10,7 @@ const [data,setData]=useState([])
        .then(data => setData(data))
     },[])
     return (
-        <div className="grid grid-cols-1 sm:grid-cols-2 p-5 gap-5">
+        <div className="grid grid-cols-1 sm:grid-cols-2 p-5 gap-5 ">
             { 
                 data.map((service,index)=>(
                     <Service_Card key={index} service={service}></Service_Card>

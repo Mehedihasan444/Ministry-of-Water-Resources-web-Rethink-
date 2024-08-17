@@ -2,8 +2,11 @@ import "./App.css";
 import Banner from "./components/custom-components/banner/Banner";
 import Navbar from "./components/custom-components/navbar/Navbar";
 import Top_Header from "./components/custom-components/navbar/top-header/Top_Header";
+import News from "./components/custom-components/news/News";
 import Notice_Board from "./components/custom-components/notice-board/Notice_Board";
 import Services from "./components/custom-components/services/Services";
+import Sidebar from "./components/custom-components/sidebar/Sidebar";
+import { Button } from "./components/ui/button";
 
 const App = () => {
   return (
@@ -35,14 +38,21 @@ const App = () => {
           </div>
         </div>
         <Banner />
+        {/* news */}
+        <div className="flex gap-2 items-center py-2">
+          <h3 className="font-semibold">News: </h3>
+          <News />
+        </div>
         <div className="flex justify-between my-10">
           <div className="w-2/3">
             <Notice_Board />
-            <div className="bg-[#f2faff]  my-10">
+            <div className="bg-[#f2faff]  my-10 shadow">
               <Services />
             </div>
           </div>
-          <div className="w-1/3"></div>
+          <div className="w-1/3 ml-10 bg-[#f2faff] shadow rounded-md">
+            <Sidebar />
+          </div>
         </div>
       </div>
     </div>
